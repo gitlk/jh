@@ -82,18 +82,18 @@
  		var name=$("input[name='username']").val();
 		var passowrd=$("input[name='passowrd']").val();
 		if(name&&name!=''){
-			$(".input-text span").attr("display","none");
+			$(".input-text span").css("display","none");
 		}else{
 			alert("请输入用户名");
-			$(".input-text span").attr("display","block");
+			$(".input-text span").css("display","block");
 		}
 
 		if(passowrd&&passowrd!=''){
-			$(".input-text span").attr("display","none");
+			$(".input-text span").css("display","none");
 
 		}else{
 			alert("请输入密码")
-			$(".input-text span").attr("display","block");
+			$(".input-text span").css("display","block");
 		}
 
 
