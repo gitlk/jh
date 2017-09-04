@@ -78,6 +78,25 @@
 </body>
 </html>
 <script>
- 
+ 	$('.btn-submit').click(function(){
+ 		var name=$("input[name='username']").val();
+		var passowrd=$("input[name='passowrd']").val();
+		if(name&&name!=''){
+			$(".input-text span").attr("display","none");
+		}else{
+			alert("请输入用户名");
+			$(".input-text span").attr("display","block");
+		}
+
+		if(passowrd&&passowrd!=''){
+			$(".input-text span").attr("display","none");
+
+		}else{
+			alert("请输入密码")
+			$(".input-text span").attr("display","block");
+		}
+
+
+ 	})
 
 </script>
