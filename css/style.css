@@ -16,7 +16,7 @@
 .code-btn{background:#bbbbbb;color:#fff;line-height: 1.9rem;height: 1.9rem;font-size: 0.8rem;border:none;width: 38%}
 .jianghuxy{font-size: 0.7rem;text-align: center;margin:10px;}
 .jianghuxy a{color:red;}
-.jianghuinfo{font-size: 0.8rem;width:94%;margin:0 3%;display: none}
+#jianghuinfo{font-size: 0.8rem;width:94%;margin:0 3%;display: none}
 .agree{width:100%;margin: 20px auto;line-height: 2rem;
                 height: 2rem;font-size: 0.8rem;background: #0a6497;color:#fff;border-radius: 4px; }
 
