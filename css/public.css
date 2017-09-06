@@ -47,6 +47,8 @@ html { font-size: 20px; }
 
 .oneback{float: left;margin-left: 10px;background:url('../images/icon/left.png') no-repeat center center;
          width:2rem;height:2rem;display: inline-block;background-size: 1rem}
+.homeback{float: right;margin-right: 10px;background:url('../images/icon/index.png') no-repeat center center;
+         width:2rem;height:2rem;display: inline-block;background-size: 1.5rem}
 .header-title{margin-left: -2rem}         
 
  
