@@ -53,10 +53,10 @@ html { font-size: 20px; }
 /*content*/
 .content{margin-top: 2rem;overflow: hidden;background:#fafafa; }        
 .list{display: block;margin: 1rem 1rem;background: url('../images/icon/more.png') no-repeat right center;}
-.list span{font-size: 0.7rem;margin: 0px 0.5rem;line-height: 1rem;}
+.list span{font-size: 0.7rem;margin: 0px 0.5rem;line-height: 2rem;}
 @media screen and (max-width:375px) {
     .list span {
-        font-size: 0.7rem;margin: 0px 0.4rem;line-height: 1rem;
+        font-size: 0.7rem;margin: 0px 0.4rem;line-height: 2rem;
     }
 }
 
