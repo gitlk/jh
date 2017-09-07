@@ -42,13 +42,21 @@ html { font-size: 20px; }
 /*header*/
 
 .header{height:2rem;line-height: 2rem;background-color: #000;color: #fff;opacity: 0.8;
-    text-align: center;font-size: 0.9rem;position: fixed;width:100%;}
-
+    text-align: center;font-size: 0.9rem;position: fixed;top:0;width:100%;}
 
 .oneback{float: left;margin-left: 10px;background:url('../images/icon/left.png') no-repeat center center;
          width:2rem;height:2rem;display: inline-block;background-size: 1rem}
 .homeback{float: right;margin-right: 10px;background:url('../images/icon/index.png') no-repeat center center;
          width:2rem;height:2rem;display: inline-block;background-size: 1.5rem}
-.header-title{margin-left: -2rem}         
+.header-title{margin-left: -2rem} 
 
- 
+/*content*/
+.content{margin-top: 2rem;overflow: hidden;background:#fafafa; }        
+.list{display: block;margin: 1rem 1rem;background: url('../images/icon/more.png') no-repeat right center;}
+.list span{font-size: 0.7rem;margin: 0px 0.6rem;line-height: 1rem;}
+
+.avatar{border-radius: 100%;line-height: 2rem;height: 2rem;width: 2rem;text-align: center;background:#000;float: left; }
+.avatar img{border-radius: 100%;display: block;}
+.list p{text-indent: 1rem;color: #000;line-height: 2rem;margin:0 auto;margin-right: 2rem; } 
+.list p i{color:#e74c3c;font-size: 1.4rem;font-weight: 700;float: right;}
+
