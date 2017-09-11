@@ -46,9 +46,12 @@ html { font-size: 20px; }
 
 .oneback{float: left;margin-left: 10px;background:url('../images/icon/left.png') no-repeat center center;
          width:2rem;height:2rem;display: inline-block;background-size: 1rem}
+.memberinfo{float: left;margin-left: 10px;background:url('../images/icon/member.png') no-repeat center center;
+         width:2rem;height:2rem;display: inline-block;background-size: 1rem}         
 .homeback{float: right;margin-right: 10px;background:url('../images/icon/index.png') no-repeat center center;
          width:2rem;height:2rem;display: inline-block;background-size: 1.5rem}
-.header-title{margin-left: -2rem} 
+.addpro{float: right;width:2rem;height:2rem;display:inline-block;font-size: 2rem;color: #fff;}         
+.header-title{margin-left:2rem} 
 
 /*content*/
 .content{margin-top: 2rem;overflow: hidden;background:#f2f2f2; }        
@@ -58,7 +61,9 @@ html { font-size: 20px; }
 .avatar img{border-radius: 100%;display: block;}
 
 .show-list{margin:10px;}
-.list{display: block;margin: 1rem;width:60%;position: relative;float: left;background:#fff }
+.list{display: block;margin: 0.5rem 1rem;width:60%;position: relative;float: 
+        left;background:#fff;border:1px solid #fefefe; }
+.list:hover{background:#f6f6f6;}
 .list span{font-size: 0.6rem;margin:0.5rem;display: block;}
 .list .list-des{margin: 0 auto;line-height: 0.6rem;display: block;text-indent: 1rem;}
 @media screen and (max-width:375px) {
