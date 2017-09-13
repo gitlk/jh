@@ -9,7 +9,7 @@
                     color: #888;font-size: 0.8rem;text-indent: 1rem}
 .input-text select{line-height: 2rem;height: 2rem;width:auto;background:#ddd;
                     color: #888;font-size: 0.8rem;text-indent: 1rem}                    
-.input-text textarea{background:#ddd;width:100%;min-height: 6rem;line-height: 2rem; }
+.input-text textarea{background:#ddd;width:100%;min-height: 3rem;line-height: 2rem;text-indent: 1rem; }
 .input-text .half{width:44%;float: left;margin-bottom: 0.5rem;}
 .input-text .msg{font-size: 0.7rem;color: red;margin: 4px;display: none}
 .input-text .checkbox{width:1rem;margin-top: 0.75rem;height: auto;vertical-align: center;}
