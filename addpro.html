@@ -49,7 +49,7 @@
 	<div class="header">
 		<a class="oneback" href="javascript:history.back(-1)"></a>
 <!-- 		<a href="?member" class="memberinfo"></a> -->
-		<span class="header-title">江湖</span>
+		<span class="header-title">发布任务</span>
 		<a href="index.html" class="homeback"></a>
 		<a href="addpro.html" class="addpro">+</a>
 		
@@ -57,14 +57,95 @@
 	<div class="clearfix"></div>
 
 	<div class="content">
-		<div style="border: 1px solid #ccc;width:3rem;height: 3rem;margin: 1rem;float: left">
+<!-- 		<div class="add_avatar">
 			<img src="./images/icon/index.png" width="100%"/>			
 		</div>
-		<div style="line-height: 3rem;float: left;margin: 1rem;font-size: 0.8rem">
-			<span style="float:left;">187****9211</span>
-			<span style="float:right;>余额：999元</span>
+		<div class="add_msg_money">
+			<span>187****9211</span>
+			<span style="margin-left:2rem;">余额：999元</span>
+		</div> -->
+		<div class="clearfix"></div>
+		<div style="padding:0.5rem; ">
+	 		<form method="post" action="#">
+	 		<div class="input-text">
+				<input type="text" style="margin-bottom: 0.5rem;" name="title" value="" placeholder="标题" />
+				<div class="clearfix"></div>
+	 		</div>
+
+	 		<div class="input-text">	
+				<textarea  name="" placeholder="任务描述(请描述任务完成详细流程)"></textarea>
+				<div class="clearfix"></div>
+	 		</div>
+
+			<div class="input-text">
+				<!-- <label>任务单价：</label> -->
+				<input type="text"  class="half" name="title" value="" placeholder="输入任务单价" />
+				 <!-- &nbsp;<span style="line-height: 2rem;font-size: 0.8rem">元</span> -->
+				 <input type="text"  class="half" style="float: right;" name="title" value="" placeholder="输入任务量" />
+				<div class="clearfix"></div>
+	<!-- 		   <span style="font-size: 0.7rem;color: #999;">请输入单个任务完成金额</span> -->
+			</div> 
+<!-- 
+			<div class="input-text">  
+				<label>任务数量：</label>
+				<input type="text"  class="half" style="" name="title" value="" placeholder="总数量" />
+				 &nbsp;<span style="line-height: 2rem;font-size: 0.8rem">个</span> 
+				<div class="clearfix"></div>	
+	 		</div> -->
+	 		
+	 		<div class="input-text">
+	 			<!-- <label>完成时限：</label> -->
+	 			<img src="images/icon/clock.png">
+	 			<select name='time' style="width:60%;margin-left:0.5rem; ">
+	 				<option>3分钟</option>
+	 				<option>5分钟</option>
+	 				<option>10分钟</option>
+	 				<option>20分钟</option>
+	 			</select>
+	 			<p style="font-size: 0.5rem;line-height: 1rem;text-indent: 1.5rem;">若援手用户没有在规定时间内完成，则算放弃</p>
+			<!-- 	<input type="text" class="half" name="time" value="" placeholder="时间" /> 
+				&nbsp;<span style="line-height: 2rem;font-size: 0.8rem"> 分钟</span> -->
+				<div class="clearfix"></div>
+	 		</div>	
+
+	 		<div class="input-text" style="margin-top: 0.5rem;">
+	 			<img src="images/icon/browse.png">
+	 			<select name='time' style="width:60%;margin-left:0.5rem; ">
+	 				<option>免审核：报酬最低一元</option>
+	 				<option>审核：报酬最低两元</option>
+	 			</select>
+	 			<p style="font-size: 0.5rem;line-height: 1rem;text-indent: 1.5rem;">免审核：用户无需截图即可提交直接完成任务</p>
+	 			<p style="font-size: 0.5rem;line-height: 1rem;text-indent: 1.5rem;">需审核：援手用户需截图提交由您进行审核判断是否结算报酬</p>
+				<div class="clearfix"></div>
+	 		</div>	
+<!-- 
+	 		<div class="input-text">
+	 			<label>是否审核：</label>
+				<input type="radio" class="checkbox" name="time" value="1"  />是
+				<input type="radio" class="checkbox" name="time" value="2"  />否
+				<div class="clearfix"></div>
+				<span style="font-size: 0.7rem;color: #999;">是否需要审核任务</span> 
+	 		</div> -->
+
+	 		<div class="clearfix"></div>
+	 		<div class="input-text font_16" style='text-indent: 1.5rem;'>余额：<span style="color: red">660</span>元</div>
+			<div class="input-text font_16" style='text-indent: 1.5rem;'>合计：<span style="color: red">660</span>元</div>
+			<div class="input-text font_16" style='text-indent: 1.5rem;'>结余：<span style="color: red">660</span>元</div>
+
+			<div class="input-text" style="margin-top: 20px;margin-bottom: 10px;">
+				<button type="button" class="btn-submit">提交</button>
+			</div>
+
+			<div class="input-text">
+				<a class="btn-register" href="register.html">充值</a>
+			</div>
+
+	 		</form>
+	 		
+	 		<div class="clearfix"></div>
 		</div>
-			
+		
+
 	</div>	
 
 </body>

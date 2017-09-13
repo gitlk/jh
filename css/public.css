@@ -89,3 +89,7 @@ html { font-size: 20px; }
   border-right:solid 12px #fff;       
   border-bottom:solid 12px transparent;
 }
+
+/*add*/
+.add_avatar{border: 1px solid #ccc;width:3rem;height: 3rem;margin: 1rem;float: left;border-radius: 100%;}
+.add_msg_money{line-height: 3rem;float: left;margin: 1rem;font-size: 0.8rem}

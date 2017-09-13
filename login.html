@@ -54,12 +54,12 @@
 
 				<div class="input-text">
 					<input type="text" name="username" value="" placeholder="请输入您的手机号" />
-					<span>*提示信息显示位置</span>
+					<span class="msg">*提示信息显示位置</span>
 				</div>
 
 				<div class="input-text">
 					<input type="passowrd" class="input-text" name="passowrd" value="" placeholder="请输入您的密码" />
-					<span>*提示信息显示位置</span>
+					<span class="msg">*提示信息显示位置</span>
 				</div>
 
 				<div class="input-text" style="margin-top: 20px;">
@@ -84,18 +84,18 @@
  		var name=$("input[name='username']").val();
 		var passowrd=$("input[name='passowrd']").val();
 		if(name&&name!=''){
-			$(".input-text span").css("display","none");
+			$(".input-text .msg").css("display","none");
 		}else{
 			alert("请输入用户名");
-			$(".input-text span").css("display","block");
+			$(".input-text .msg").css("display","block");
 		}
 
 		if(passowrd&&passowrd!=''){
-			$(".input-text span").css("display","none");
+			$(".input-text .msg").css("display","none");
 
 		}else{
 			alert("请输入密码")
-			$(".input-text span").css("display","block");
+			$(".input-text .msg").css("display","block");
 		}
 
 
