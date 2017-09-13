@@ -2,7 +2,7 @@
 .font_14{font-size: 0.7rem;}
 /*输入框基本样式*/
 .input-text{width:90%;margin: 0 auto;margin-bottom:5px;}
-.input-text label{float: left;margin-bottom: 0.5rem;line-height: 2rem;}
+.input-text label{float: left;}
 .input-text input{line-height: 2rem;height: 2rem;width:100%;background:#ddd;
                     color: #888;font-size: 0.8rem;text-indent: 1rem}
 .input-text input.input-text-code{line-height: 2rem;height: 2rem;width:60%;background:#ddd;
@@ -12,7 +12,7 @@
 .input-text textarea{background:#ddd;width:100%;min-height: 3rem;line-height: 2rem;text-indent: 1rem; }
 .input-text .half{width:44%;float: left;margin-bottom: 0.5rem;}
 .input-text .msg{font-size: 0.7rem;color: red;margin: 4px;display: none}
-.input-text .checkbox{width:1rem;margin-top: 0.75rem;height: auto;vertical-align: center;}
+.input-text .checkbox{width:1rem;height: auto;vertical-align: center;}
 
 .btn-submit{width:100%;margin: 0 auto;line-height: 2rem;
                 height: 2rem;font-size: 0.8rem;background: #0a6497;color:#fff;border-radius: 4px;}
