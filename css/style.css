@@ -1,5 +1,7 @@
-.font_16{font-size: 0.8rem;}
-.font_14{font-size: 0.7rem;}
+.font_16{font-size: 0.8rem !important;}
+.font_14{font-size: 0.7rem !important;}
+.indent-1{text-indent: 1rem !important;}
+.indent-2{text-indent: 2rem !important;}
 /*输入框基本样式*/
 .input-text{width:90%;margin: 0 auto;margin-bottom:5px;}
 .input-text label{float: left;}
@@ -13,7 +15,7 @@
 .input-text .half{width:44%;float: left;margin-bottom: 0.5rem;}
 .input-text .msg{font-size: 0.7rem;color: red;margin: 4px;display: none}
 .input-text .checkbox{width:1rem;height: auto;vertical-align: center;}
-
+.input-text .input-bz{font-size: 0.5rem;line-height: 1rem;text-indent: 1.5rem;}
 .btn-submit{width:100%;margin: 0 auto;line-height: 2rem;
                 height: 2rem;font-size: 0.8rem;background: #0a6497;color:#fff;border-radius: 4px;}
 
@@ -62,3 +64,76 @@
 #jianghuinfo{font-size: 0.8rem;width:94%;margin:0 3%;display: none}
 .agree{width:100%;margin: 20px auto;line-height: 2rem;
                 height: 2rem;font-size: 0.8rem;background: #0a6497;color:#fff;border-radius: 4px; }   
+
+
+/*
+nav导航
+like 2017/9/16
+*/
+.sidenav {
+    background:#fffffe;
+    box-shadow:2px 2px 6px rgba(0,0,0,.3);
+    display:block;
+    font-size:16px;
+    font-weight:400;
+    height:100%;
+    left:0;
+    position:fixed;
+    overflow:auto;
+    transform:translate(-262px,0);
+    transition:transform .3s;
+    top:0;
+    width:256px;
+    z-index:100
+}
+.sidenav.show {
+    transform:translate(0,0)
+}
+
+.sidenav .sidenav-menu{
+    margin:1rem; 
+    vertical-align: center;
+}
+.sidenav .menu-bakg1{
+    background: url("../images/icon/money.png") no-repeat left center;
+}
+.sidenav .menu-bakg2{
+    background: url("../images/icon/folder.png") no-repeat left center;
+}
+.sidenav .menu-bakg3{
+    background: url("../images/icon/favorites.png") no-repeat left center;
+}
+.sidenav .menu-bakg4{
+    background: url("../images/icon/join.png") no-repeat left center;
+}
+.sidenav .menu-bakg5{
+    background: url("../images/icon/personx.png") no-repeat left center;
+}
+.sidenav .menu-bakg6{
+    background: url("../images/icon/givemoney.png") no-repeat left center;
+}
+
+.sidenav .sidenav-menu span{
+    display: inline-block;
+    text-indent: 2rem;
+    line-height: 2rem;
+    font-size: 0.8rem;
+    color:#333;
+}
+.sidenav .sidenav-menu .indent-1{
+    color: #888;
+}
+
+.sidenav-overlay {
+    background:rgba(255,255,255,.8);
+    display:none;
+    height:100%;
+    left:0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:99
+}
+.sidenav-no-scroll {
+    overflow:hidden!important
+}

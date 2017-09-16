@@ -48,7 +48,7 @@
 <body>
 	<div class="header">
 		<!-- <a class="oneback" href="javascript:history.back(-1)"></a> -->
-		<a href="?member" class="memberinfo"></a>
+		<a href="javascript:;" class="memberinfo toggle" id="sidenav-toggle"></a>
 		<span class="header-title">江湖</span>
 		<a href="index.html" class="homeback"></a>
 		<a href="addpro.html" class="addpro">+</a>
@@ -82,6 +82,51 @@
 		</div>
 
 	</div>	
+<!--导航-->
+	<nav class="sidenav" data-sidenav data-sidenav-toggle="#sidenav-toggle">
+		<div class="add_avatar">
+			<img src="./images/icon/index.png" width="100%"/>			
+		</div>
+		<div class="add_msg_money">
+			<span>187****9211</span>
+		</div>
+		
+		<div class="clearfix"></div>
+
+	    <div class="sidenav-menu menu-bakg1">    
+	      <span>我的钱包</span>
+	      <span class="fr indent-1">355元</span>
+	    </div>
+
+	    <div class="sidenav-menu menu-bakg2">    
+	      <span>任务管理</span>
+	      <span class="fr indent-1">3个待处理</span>
+	    </div>
+
+	    <div class="sidenav-menu menu-bakg3">    
+	      <span>募资活动</span>
+	      <span class="fr indent-1">2000000元</span>
+	    </div>
+
+	    <div class="sidenav-menu menu-bakg4">    
+	      <span>邀请好友</span>
+	      <span class="fr indent-1">5个</span>
+	    </div>
+
+	    <div class="sidenav-menu menu-bakg5">    
+	      <span>黑名单</span>
+	      <span class="fr indent-1">12个</span>
+	    </div>	
+
+	    <div class="sidenav-menu menu-bakg6">    
+	      <span>投资江湖</span>
+	      <span class="fr indent-1">隐私</span>
+	    </div>	 
+	           
+	  </nav>
+	<script src="js/nav.js"></script>
+  	<script>$('[data-sidenav]').sidenav();</script>
+
 
 </body>
 </html>
