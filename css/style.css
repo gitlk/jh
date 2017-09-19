@@ -137,3 +137,9 @@ like 2017/9/16
 .sidenav-no-scroll {
     overflow:hidden!important
 }
+.nav-foot{
+    position: fixed;
+    bottom:1rem;
+    width: 100%;
+}
+.nav-foot a{margin-right: 1rem; }
